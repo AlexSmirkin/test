@@ -1,0 +1,45 @@
+.socialmedia
+{
+}
+
+.socialmedia ul
+{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.socialmedia ul li
+{
+float: left;
+margin: 0 0 0 13px;
+}
+
+.socialmedia ul li:first-child
+{
+margin: 0;
+}
+
+.socialmedia ul li a
+{
+display: block;
+width: 44px;
+height: 44px;
+line-height: 40px;
+border: 2px solid #b8b8b8 !important;
+border-radius: 50%;
+box-sizing: border-box;
+text-align: center;
+color: #e4e4e4 !important;
+}
+
+.socialmedia ul li a.site-icon-fb
+{
+font-size: 17px;
+}
+
+.socialmedia ul li a:hover
+{
+color: #e32d35 !important;
+border-color: #e32d35 !important;
+}

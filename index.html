@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!--<base href="localhost/testGitHub/" >-->
+    <title>Выберите инструмент для работы — Пиксель Тулс</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="libs/formstyler/jquery.formstyler.css" rel="stylesheet" type="text/css">
+    <link href="libs/jscrollpane/jquery.jscrollpane.css" rel="stylesheet" type="text/css">
+    <link href="libs/noUiSlider/jquery.nouislider.css" rel="stylesheet" type="text/css">
+    <link href="libs/animate/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/tools-list-inside.css" rel="stylesheet" type="text/css">
+
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/jquery.mousewheel.min.js"></script>
+    <script src="libs/jquery.cookie.js"></script>
+    <script src="libs/formstyler/jquery.formstyler.min.js"></script>
+    <script src="libs/jscrollpane/jquery.jscrollpane.min.js"></script>
+    <script src="libs/noUiSlider/jquery.nouislider.all.min.js"></script>
+    <script src="libs/wow/wow.min.js"></script>
+    <script src="project.js"></script>
+</head>
+<body>
+<div class="wrapper outer-block">
+    <div class="header-wr">
+        <div class="header">
+            <div class="logo"><a href="/"><img src="/img/logo.svg" alt=""></a></div>
+            <div class="mainmenu-wr" style="top:26px">
+                <div class="mainmenu">
+                    <ul>
+                        <li><a href="/news/">Новости</a></li>
+                        <li><a href="/" class="selected">Инструменты</a></li>
+                        <li><a href="/faq/">FAQ</a></li>
+                        <li><a href="/support/">Обратная связь</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="auth-btn">
+                <a href="/user/logout" class="site-btn-transparent-white">Выход</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-wr">
+        <div class="content">
+            <div class="main-columns clearfix">
+                <div class="left-column">
+                    <div class="left-auth">
+                        <div class="user-name"><span class="site-icon-personal"></span>Александр</div>
+                        <div class="user-menu">
+                            <ul>
+                                <li><a href="/user/1827/edit"><span class="site-icon-settings"></span>Настройки аккаунта</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left-auth">
+                        <div class="user-menu">
+                            <div class="h3">Администратор</div>
+                            <ul>
+                                <li><a href="/user/list"><span class="site-icon-settings"></span>Список пользователей</a></li>
+                                <li><a href="/user/roles"><span class="site-icon-settings"></span>Управление ролями</a></li>
+                                <li><a href="/user/statistics"><span class="site-icon-settings"></span>Статистика</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left-menu" style="margin-bottom:10px;">
+                        <div class="h3">Скрытые сервисы</div>
+                        <ul>
+                            <li><a href="/tools/traffic-forecast"><span class="site-icon-graph"></span>Прогноз на трафик</a></li>
+                            <li><a href="/tools/snss-yandex"><span class="site-icon-text-block"></span>Проверка учёта ссылок по запросу</a></li>
+                            <li><a href="/tools/ads-generator"><span class="site-icon-tags"></span>Генератор контекста</a></li>
+                            <li><a href="/tools/reoptimization-v1"><span class="site-icon-notepad"></span>Проверка на переоптимизацию (v1)</a></li>
+                            <li><a href="/tools/reoptimization-advanced"><span class="site-icon-notepad"></span>Расширенная проверка на переоптимизацию</a></li>
+                            <li><a href="/tools/fast-audit"><span class="site-icon-tree"></span>Быстрый аудит сайта</a></li>
+                            <li><a href="/tools/analiz-top"><span class="site-icon-tree"></span>Анализ ТОП по ключевым показателям</a></li>
+                        </ul>
+                    </div>
+                    <div class="left-menu">
+                        <div class="h3">Сервисы</div>
+                        <ul>
+                            <li><a href="/tools/reoptimization"><span class="site-icon-notepad"></span>Проверка на переоптимизацию</a></li>
+                            <li><a href="/tools/copywriters"><span class="site-icon-text-block"></span>ТЗ на копирайтинг</a></li>
+                            <li><a href="/tools/affiliation"><span class="site-icon-darth-vader"></span>Проверка на аффилированность</a></li>
+                            <li><a href="/tools/indexed-domains"><span class="site-icon-tree"></span>Поиск проиндексированных поддоменов</a></li>
+                            <li><a href="/tools/geo"><span class="site-icon-globe"></span>Геозависимость и локализация запросов</a></li>
+                            <li><a href="/tools/advanced"><span class="size-11px site-icon-title"></span>Релевантность разных зон документа</a></li>
+                            <li><a href="/tools/server-response"><span class="site-icon-server"></span>Проверка ответа сервера</a></li>
+                            <li><a href="/tools/masterpages"><span class="site-icon-yandex"></span>Количество главных страниц в Яндексе</a></li>
+                            <li><a href="/tools/nepotism"><span class="site-icon-link"></span>Проверка на Непот-фильтр</a></li>
+                        </ul>
+                    </div>
+                    <div class="h2">Новости</div>
+                    <div class="news-list">
+                        <div>
+                            <div class="news-date"><span>05.08.2016</span></div>
+                            <div class="news-name"><a href="/news/geo-i-loc">Новый инструмент: геозависимость и локализация запросов (Яндекс)</a></div>
+                        </div>
+                        <div>
+                            <div class="news-date"><span>26.07.2016</span></div>
+                            <div class="news-name"><a href="/news/free-limits">Бесплатное увеличение числа доступных лимитов</a></div>
+                        </div>
+                        <div>
+                            <div class="news-date"><span>19.07.2016</span></div>
+                            <div class="news-name"><a href="/news/new-reoptimization">Новый механизм проверки на пост-фильтры</a></div>
+                        </div>
+                    </div>
+
+                    <a href="/news/" class="site-btn-transparent-red"><span>Архив новостей</span></a>
+                </div>
+                <div class="center-column">
+
+                    <h1 class="acenter">Выберите инструмент для работы</h1>
+                    <p class="acenter">Выберите интересующий вас SEO-инструмент для дальнейшей работы из списка ниже.</p>
+
+                    <div class="tools-list-inside clearfix">
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                            <a href="/tools/reoptimization">
+                                <div class="site-icon-notepad"></div>
+                                <span>Проверка на<br>переоптимизацию</span>
+                            </a>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                            <a href="/tools/copywriters">
+                                <div class="site-icon-text-block"></div>
+                                <span>ТЗ на<br>копирайтинг</span>
+                            </a>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                            <a href="/tools/affiliation">
+                                <div class="site-icon-darth-vader"></div>
+                                <span>Проверка на<br>аффилированность</span>
+                            </a>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+                            <a href="/tools/indexed-domains">
+                                <div class="site-icon-tree"></div>
+                                <span>Поиск<br>проиндексированных<br>поддоменов</span>
+                            </a>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+                            <a href="/tools/geo">
+                                <div class="site-icon-globe"></div>
+                                <span>Геозависимость<br>и локализация<br>запросов</span>
+                            </a>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                            <a href="/tools/advanced">
+                                <div class="site-icon-title"></div>
+                                <span>Релевантность<br>разных зон<br>документа</span>
+                            </a>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
+                            <a href="/tools/server-response">
+                                <div class="site-icon-server"></div>
+                                <span>Проверка ответа<br>сервера</span>
+                            </a>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s"data-wow-delay="1.2s">
+                            <a href="/tools/masterpages">
+                                <div class="site-icon-yandex"></div>
+                                <span>Количество главных<br>страниц в Яндексе</span>
+                            </a>
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+                            <a href="/tools/nepotism">
+                                <div class="site-icon-link"></div>
+                                <span>Проверка на<br>Непот-фильтр</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-push"></div>
+</div>
+
+</div>
+</body>
+</html>

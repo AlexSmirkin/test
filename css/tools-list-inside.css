@@ -1,0 +1,81 @@
+.tools-list-inside
+{
+font-size: 0;
+margin: 16px 0 60px 0;
+}
+
+.tools-list-inside > div
+{
+float: left;
+width: 216px;
+margin: 64px 0 0 31px;
+font-size: 22px;
+font-weight: 300;
+line-height: 1.4;
+text-align: center;
+}
+
+.tools-list-inside > div:nth-child(3n+1)
+{
+clear: left;
+margin-left: 0;
+}
+
+.tools-list-inside > div a:link,
+.tools-list-inside > div a:visited
+{
+display: block;
+border: none !important;
+}
+
+.tools-list-inside > div a div[class*=site-icon-]
+{
+font-size: 106px;
+line-height: 106px;
+color: #e32d35;
+display: block;
+margin: 0 0 48px 0;
+-webkit-transition: transform .3s;
+-moz-transition: transform .3s;
+-ms-transition: transform .3s;
+-o-transition: transform .3s;
+transition: transform .3s;
+}
+
+.tools-list-inside > div a div.site-icon-globe
+{
+font-size: 106px;
+}
+
+.tools-list-inside > div a div.site-icon-calc
+{
+font-size: 100px;
+}
+
+.tools-list-inside > div a div.site-icon-title
+{
+font-size: 62px;
+}
+
+.tools-list-inside > div a:hover div[class*=site-icon-]
+{
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.tools-list-inside > div a span
+{
+color: #434343;
+border-bottom: 1px solid rgba(67,67,67,0.5) !important;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-ms-transition: all .3s;
+-o-transition: all .3s;
+transition: all .3s;
+}
+
+.tools-list-inside > div a:hover span
+{
+color: #e32d35;
+border-bottom: 1px solid rgba(227,45,53,0) !important;
+}

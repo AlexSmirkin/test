@@ -1,0 +1,44 @@
+.left-auth
+{
+border:1px solid #e5e5e5;
+padding: 18px 14px;
+border-radius: 4px;
+margin-bottom: 10px;
+}
+
+.left-auth .user-name
+{
+font-size: 18px;
+margin: 0 0 14px 0;
+padding: 0 0 0 28px;
+position: relative;
+}
+
+.left-auth .user-menu
+{
+}
+
+.left-auth .user-menu ul
+{
+margin: 0 0 -14px 0;
+padding: 0;
+list-style: none;
+}
+
+.left-auth .user-menu ul li
+{
+min-height: 15px;
+margin: 0 0 14px 0;
+padding: 0 0 0 28px;
+position: relative;
+line-height: 1.2;
+}
+
+.left-auth .user-name [class*="site-icon-"],
+.left-auth .user-menu ul li [class*="site-icon-"]
+{
+font-size: 15px;
+position: absolute;
+left: 0;
+top: 1px;
+}

@@ -1,0 +1,41 @@
+.mainmenu
+{
+}
+
+.mainmenu ul
+{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.mainmenu ul li
+{
+float: left;
+margin: 0 0 0 54px;
+}
+
+.mainmenu ul li:first-child
+{
+margin: 0;
+}
+
+.mainmenu ul li a:link,
+.mainmenu ul li a:visited
+{
+color: #fff !important;
+border-color: transparent;
+}
+
+.mainmenu ul li a:hover,
+.mainmenu ul li a.selected
+{
+color: #e32d35 !important;
+border-color: rgba(227,45,53,0.5) !important;
+}
+
+.mainmenu ul li span
+{
+color: #e32d35;
+border-bottom: 1px solid rgba(227,45,53,0.5);
+}

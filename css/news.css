@@ -1,0 +1,157 @@
+.guest {
+  padding-bottom: 20px;
+}
+
+.block {
+  padding-left: 163px;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+h1 {
+  margin-bottom: 45px !important;
+}
+
+.block .date {
+  border: 1px solid #dbdbdb;
+  padding: 8px 18px;
+  font-size: 9pt;
+  color: #9e9d9d;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+}
+
+.news-add-link {
+  float: right;
+  margin-top: -80px;
+  font-size: 16px;
+}
+
+.block .more{
+  float:right;
+}
+
+.block .more span.left{
+  border-right: 1px solid #e32d35;
+  padding-right: 5px;
+}
+
+.block .more span a{
+  padding:0px 5px;
+  font-size: 14px;
+  color: #e32d35 !important;
+  cursor:pointer !important;
+}
+
+.block a {
+  font-size: 14pt;
+}
+
+.block .news-title{
+  font-size: 14pt;
+}
+
+.block .anons {
+  padding-top: 8px;
+  line-height: 18pt;
+}
+
+.page-navigation a {
+  text-decoration: none;
+  outline: none;
+  color: #a6a9ac;
+  font-size: 10.5pt;
+  padding: 14px 17px;
+  line-height: 10pt;
+  border: 1px solid white;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.page-navigation a:hover {
+  border: 1px solid #5abf1c;
+  color: #5abf1c;
+}
+
+.page-navigation a.active {
+  border: 1px solid #5abf1c;
+  color: #5abf1c;
+  cursor: default;
+}
+
+.other-news {
+    overflow: hidden;
+    border-top: 1px solid #dbdbdb;
+}
+
+.link-back {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.link-back a {
+    padding: 10px 22px 12px 22px;
+    border: 1px solid #333333 !important;
+    color: #333333 !important;
+    display: inline-block;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+.link-back a:hover{
+    text-decoration: underline;
+}
+
+.overh1{
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.date {
+    font-size: 9pt;
+    color: #9e9d9d;
+    margin-bottom: 20px;
+}
+.ya-share2 {
+    clear: both;
+    float: right;
+    padding-top: 20px;
+}
+
+.other-news .date {
+    margin-bottom: 10px;
+    padding-top:5px;
+}
+
+.col-xs-4 {
+    float: left;
+    width: 300px;
+    padding-right:25px;
+}
+
+.other-news a {
+    line-height: 20pt;
+    display: inline-block;
+    color: #434343;
+    padding-right: 10px;
+}
+
+.img-upload{
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+
+.img-url{
+    padding: 6px 0;
+    color: #9D2F33;
+    font-weight: bold;
+}

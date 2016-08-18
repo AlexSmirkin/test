@@ -1,0 +1,61 @@
+.tools-list
+{
+text-align: center;
+font-size: 0;
+margin: 80px 0 -64px 0;
+}
+
+.tools-list > div
+{
+display: inline-block;
+vertical-align: top;
+width: 246px;
+height: 210px;
+margin:0 40px 64px 40px;
+font-size: 22px;
+font-weight: 300;
+line-height: 1.4;
+}
+
+.tools-list > div a:link,
+.tools-list > div a:visited
+{
+display: block;
+border: none !important;
+}
+
+.tools-list > div a div[class*=site-icon-]
+{
+font-size: 86px;
+color: #e32d35;
+display: block;
+margin: 0 0 48px 0;
+-webkit-transition: transform .3s;
+-moz-transition: transform .3s;
+-ms-transition: transform .3s;
+-o-transition: transform .3s;
+transition: transform .3s;
+}
+
+.tools-list > div a:hover div[class*=site-icon-]
+{
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.tools-list > div a span
+{
+color: #434343;
+border-bottom: 1px solid rgba(67,67,67,0.5) !important;
+-webkit-transition: all .3s;
+-moz-transition: all .3s;
+-ms-transition: all .3s;
+-o-transition: all .3s;
+transition: all .3s;
+}
+
+.tools-list > div a:hover span
+{
+color: #e32d35;
+border-bottom: 1px solid rgba(227,45,53,0) !important;
+}
